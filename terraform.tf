@@ -5,20 +5,20 @@
 terraform {
   required_providers {
     pkcs12 = {
-      source  = "registry.terraform.io/chilicat/pkcs12"
+      source  = "chilicat/pkcs12"
       version = "~> 0.2"
     }
     local = {
-      source  = "registry.terraform.io/hashicorp/local"
-      version = "~> 2.0"
+      source  = "hashicorp/local"
+      version = "~> 2.5"
     }
     random = {
-      source  = "registry.terraform.io/hashicorp/random"
-      version = "~> 3.0"
+      source  = "hashicorp/random"
+      version = "~> 3.7"
     }
     tls = {
-      source  = "registry.terraform.io/hashicorp/tls"
-      version = "~> 4.0"
+      source  = "hashicorp/tls"
+      version = "~> 4.1"
     }
   }
 }
